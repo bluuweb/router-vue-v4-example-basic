@@ -25,8 +25,14 @@ import { RouterLink, RouterView } from "vue-router";
                 <router-link
                     active-class="active"
                     to="/pokemons"
-                    class="btn btn-outline-primary"
+                    class="btn btn-outline-primary me-2"
                     >Pokemons</router-link
+                >
+                <router-link
+                    active-class="active"
+                    to="/favoritos"
+                    class="btn btn-outline-primary"
+                    >Favoritos</router-link
                 >
             </div>
         </div>
